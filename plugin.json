@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-seller-toolkit",
+  "version": "1.0.0",
+  "description": "The complete Claude plugin for Amazon FBA & DTC e-commerce sellers. 8 expert slash commands that replace hours of writing with seconds of AI-powered output — listings, ads, PPC, reviews, launch sequences and more.",
+  "author": "Your Name",
+  "license": "MIT",
+  "tags": ["ecommerce", "amazon", "fba", "shopify", "dtc", "marketing", "copywriting"],
+  "skills": [
+    "skills/product-listing",
+    "skills/review-response",
+    "skills/competitor-teardown",
+    "skills/ppc-brief",
+    "skills/launch-sequence",
+    "skills/supplier-outreach",
+    "skills/product-launch-ad"
+  ],
+  "commands": [
+    "commands/seller-help.md"
+  ],
+  "agents": [
+    "agents/listing-optimizer.md"
+  ]
+}
