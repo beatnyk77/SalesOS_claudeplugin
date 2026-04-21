@@ -1,8 +1,9 @@
 {
-  "name": "ecommerce-seller-toolkit",
+  "name": "salesos",
   "version": "1.0.0",
-  "description": "The complete Claude plugin for Amazon FBA & DTC e-commerce sellers. 8 expert slash commands that replace hours of writing with seconds of AI-powered output — listings, ads, PPC, reviews, launch sequences and more.",
-  "author": "Your Name",
+  "description": "The e-commerce operating system for Claude Code. 8 expert slash commands for Amazon FBA & DTC sellers — listings, PPC, ads, review responses, launch sequences and more.",
+  "author": "beatnyk77",
+  "homepage": "https://github.com/beatnyk77/SalesOS_claudeplugin",
   "license": "MIT",
   "tags": ["ecommerce", "amazon", "fba", "shopify", "dtc", "marketing", "copywriting"],
   "skills": [
