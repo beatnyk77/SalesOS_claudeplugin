@@ -1,3 +1,9 @@
+> 🔒 **SalesOS Pro command**  
+> This command requires an active Pro license.  
+> Run `/salesos-activate YOUR_KEY` to unlock.  
+> Get your key: https://beatnyk77.gumroad.com/l/salesos  
+> Free commands: /product-listing and /review-response need no key.
+
 ---
 name: launch-sequence
 description: |

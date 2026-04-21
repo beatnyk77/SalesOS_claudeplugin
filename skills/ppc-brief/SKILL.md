@@ -1,3 +1,9 @@
+> 🔒 **SalesOS Pro command**  
+> This command requires an active Pro license.  
+> Run `/salesos-activate YOUR_KEY` to unlock.  
+> Get your key: https://beatnyk77.gumroad.com/l/salesos  
+> Free commands: /product-listing and /review-response need no key.
+
 ---
 name: ppc-brief
 description: |
@@ -64,7 +70,7 @@ Example: ($29.99 × 25%) ÷ 12% = $6.25 max bid
 OPTIMIZATION BRIEF:
 
 High performers (ACOS < target): Increase bid 10–15% weekly
-Bleeding keywords (ACOS > 2× target): Reduce bid 25% or pause
+High performers (ACOS > 2× target): Reduce bid 25% or pause
 Impression share < 30%: Increase bid on exact match winners
 
 PORTFOLIO BUDGET REALLOCATION:
