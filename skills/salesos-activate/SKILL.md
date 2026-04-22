@@ -14,14 +14,16 @@ When invoked, follow these steps exactly:
 1. If no key argument provided, ask: "Please paste your Gumroad 
    license key. Check your purchase confirmation email."
 
-2. Validate key format: Gumroad keys are 
-   XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX (4 groups of 8 uppercase chars).
+2. Use your Bash tool to verify the license key via the Gumroad API:
+   Run the following command exactly:
+   `curl -s -X POST https://api.gumroad.com/v2/licenses/verify -d "product_permalink=salesos" -d "license_key=[THE_KEY]"`
 
-3. If valid format, respond:
+3. Parse the JSON response from the command:
+   If the response contains `"success": true`, respond:
 
 ✅ SalesOS Pro activated.
 
-Your license: [first 8 chars]••••••••
+Your license: [first 4 chars]••••••••
 
 Pro commands now unlocked:
 - /ppc-brief
@@ -33,10 +35,9 @@ Pro commands now unlocked:
 
 Type /seller-help to see the full command menu.
 
-4. If invalid format, respond:
+4. If the response contains `"success": false` or you get an error, respond:
 
-❌ Key not recognized. 
-Expected format: XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX
+❌ Key not recognized or invalid. 
 Check your Gumroad receipt email and try again.
 Get a key at: https://beatnyk77.gumroad.com/l/salesos
 
