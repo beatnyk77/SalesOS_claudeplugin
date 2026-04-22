@@ -37,7 +37,12 @@ git clone https://github.com/[your-username]/ecommerce-seller-plugin ~/.claude/p
 # Verify install
 /seller-help
 ```
+## Install on Claude Code (terminal)
+/plugin marketplace add beatnyk77/SalesOS_claudeplugin
 
+## Install on Claude Cowork (desktop app)
+Open Cowork → Customize → Plugins → Add Marketplace
+Enter: beatnyk77/SalesOS_claudeplugin
 ---
 
 ## Quick Start Examples
