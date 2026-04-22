@@ -119,8 +119,7 @@ This is productized expertise, not prompt wrapping.
 ## Support
 
 - Issues: [GitHub Issues](#)
-- Email: support@[yourdomain].com
-- Community: [Discord / Reddit link](#)
+- Email: beatnyk77@gmail.com
 
 ---
 
